@@ -1,0 +1,25 @@
+ wget https://archive.apache.org/dist/zookeeper/zookeeper-3.4.10/zookeeper-3.4.10.tar.gz
+
+tar -zxf zookeeper-3.4.10.tar.gz
+
+export ZK_HOME=/home/user1/zookeeper-3.4.10
+
+ 
+ cd zookeeper-3.4.10
+
+ mkdir data
+ 
+ move to conf directory-
+ cd conf
+ 
+  vi zoo.conf
+  
+  #edit with below 
+tickTime=2000
+
+dataDir=/home/user/zookeeper-3.4.10/data
+
+clientPort=2181
+
+ 
+ 
