@@ -21,5 +21,14 @@ dataDir=/home/user/zookeeper-3.4.10/data
 
 clientPort=2181
 
+
+pip install zookeeper-healthcheck
+ 
+ zookeeper-healthcheck
+ 
+  zookeeper-healthcheck --healthy-modes standalone --port 80
+  
+  https://pypi.org/project/zookeeper-healthcheck/
+
  
  
